@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="suite1" parallel="false">
+	<test name="loginTest">
+		<parameter name="url" value="http://192.168.0.110:81/" />
+		<parameter name="username" value="tangboanan@qq.com" />
+		<parameter name="password" value="123456" />
+		<classes >
+		<class name="PageDate.loginTest">
+		<methods>
+					<include name="login" />
+				 
+				</methods>
+					</class>
+		</classes>
+	</test>
+</suite>

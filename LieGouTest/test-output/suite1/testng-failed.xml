@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [suite1]">
+  <parameter name="password" value="123456"/>
+  <parameter name="url" value="http://192.168.0.110:81/"/>
+  <parameter name="username" value="tangboanan@qq.com"/>
+  <test name="loginTest(failed)">
+    <parameter name="password" value="123456"/>
+    <parameter name="url" value="http://192.168.0.110:81/"/>
+    <parameter name="username" value="tangboanan@qq.com"/>
+    <classes>
+      <class name="PageDate.loginTest">
+        <methods>
+          <include name="afterTest"/>
+          <include name="beforeTest"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- PageDate.loginTest -->
+    </classes>
+  </test> <!-- loginTest(failed) -->
+</suite> <!-- Failed suite [suite1] -->

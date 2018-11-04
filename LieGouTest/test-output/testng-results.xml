@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="40390" started-at="2018-11-04T14:32:23Z" finished-at="2018-11-04T14:33:04Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="40390" started-at="2018-11-04T14:32:23Z" finished-at="2018-11-04T14:33:04Z">
+      <class name="PageTests.SearcResultPk">
+        <test-method status="PASS" signature="runBeforClass()[pri:0, instance:PageTests.SearcResultPk@5a63f509]" name="runBeforClass" is-config="true" duration-ms="16997" started-at="2018-11-04T22:32:23Z" finished-at="2018-11-04T22:32:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runBeforClass -->
+        <test-method status="PASS" signature="ResumeContrast()[pri:0, instance:PageTests.SearcResultPk@5a63f509]" name="ResumeContrast" duration-ms="23373" started-at="2018-11-04T22:32:40Z" finished-at="2018-11-04T22:33:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ResumeContrast -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:PageTests.SearcResultPk@5a63f509]" name="tearDown" is-config="true" duration-ms="0" started-at="2018-11-04T22:33:04Z" finished-at="2018-11-04T22:33:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- PageTests.SearcResultPk -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
